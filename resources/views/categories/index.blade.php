@@ -21,4 +21,7 @@
       @endforeach  
     </tbody>
   </table>
+  <div style="width:100%;display:flex;justify-content: center">
+    {{ $categories->links() }}
+  </div>
 @endsection
